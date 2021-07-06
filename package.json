@@ -1,0 +1,25 @@
+{
+  "name": "js-parse",
+  "version": "1.0.0",
+  "description": "a small javascript parser.",
+  "main": "parse.js",
+  "scripts": {
+    "dev":"nodemon parse.js",
+    "debugger": "nodemon --inspect --inspect-brk parse.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/19Qingfeng/js-parse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/19Qingfeng/js-parse/issues"
+  },
+  "homepage": "https://github.com/19Qingfeng/js-parse#readme",
+  "dependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
